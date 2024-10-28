@@ -1,0 +1,91 @@
+.page1,
+.page1 * {
+  box-sizing: border-box;
+}
+
+.page1 {
+  background: #f3f4f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.p1-id-pw-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 332px;
+}
+
+.p1-id,
+.p1-pw {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.p1-id label,
+.p1-pw label {
+  color: var(--font-color, #979797);
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: var(--font-font-size, 34px);
+  font-weight: var(--font-font-weight, 700);
+  margin-right: 10px;
+  min-width: 40px;
+}
+
+.p1-input-field {
+  background: #f3f4f8;
+  border-radius: 8px; 
+  border: 2px solid #979797; 
+  width: calc(100% - 20px); 
+  padding: 10px;
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 16px;
+  outline: none;
+
+}
+form{
+  padding-bottom: 80px;
+}
+.p1-rectangle-28 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 332px;
+  padding: 20px;
+ 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+.p1-frame-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.p1-rectangle-282,
+.p1-rectangle-29 {
+  background: #b1b8c0;
+  border-radius: 20px;
+  color: white;
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: var(--font-font-size, 34px);
+  font-weight: var(--font-font-weight, 700);
+  height: 59px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,153 @@
+.page3-container,
+.page3-container * {
+  box-sizing: border-box;
+}
+
+.page3-container {
+  background: #f3f4f8;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.p3-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.p3-back-arrow {
+  font-size: 36px;
+  color: #979797;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.p3-progress-text {
+  color: #b1b8c0;
+  font-size: 34px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.p3-form-group {
+  width: 100%;
+  max-width: 332px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p3-form-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 35px; 
+}
+
+.p3-form-label {
+  color: var(--font-color, #979797);
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 24px;
+  font-weight: var(--font-font-weight, 700);
+  margin-bottom: 15px; 
+}
+
+.p3-form-input {
+  background: none;
+  border: none;
+  border-bottom: 4px solid #979797;
+  width: 100%;
+  padding: 10px 0;
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 16px;
+  outline: none;
+}
+.p3-form-inputs {
+  background: none;
+  border: none;
+  border-bottom: 4px solid #979797;
+  width: 30%;
+  padding: 10px 0;
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 16px;
+  outline: none;
+}
+.p3-age-input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  width: 100%;
+}
+
+.p3-age-label {
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 24px;
+  color: var(--font-color, #979797);
+  font-weight: var(--font-font-weight, 700);
+  margin-left: 5px;
+}
+
+.p3-age-input {
+  width: 60px;
+  margin-left: 5px;
+}
+
+.p3-phone-inputs, .p3-email-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.p3-phone-input, .p3-email-input {
+  width: 100%; 
+  margin-right: 0px; 
+}
+
+.p3-phone-label, .p3-email-label {
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: 24px;
+  color: var(--font-color, #979797);
+  font-weight: var(--font-font-weight, 700);
+  margin: 0 5px;
+}
+
+.p3-email-divider {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.p3-confirm-button-container {
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 20px;
+  position: absolute; 
+  bottom: 20px; 
+}
+
+.p3-confirm-button {
+  width: 100%;
+  height: 59px;
+  background: #b1b8c0;
+  border-radius: 20px;
+  color: white;
+  font-family: var(--font-font-family, "NotoSansKr-Bold", sans-serif);
+  font-size: var(--font-font-size, 34px);
+  font-weight: var(--font-font-weight, 700);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+}

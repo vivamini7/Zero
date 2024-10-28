@@ -1,0 +1,128 @@
+.page5-container,
+.page5-container * {
+  box-sizing: border-box;
+}
+
+.page5-container {
+  background: #f3f4f8;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.p5-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.p5-back-arrow {
+  font-size: 36px;
+  color: #979797;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.p5-progress-text {
+  color: #b1b8c0;
+  font-size: 34px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.p5-form-group {
+  width: 100%;
+  max-width: 348px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p5-form-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+.p5-form-label {
+  color: #979797;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.p5-dropdown {
+  position: relative;
+  width: 100%;
+  max-width: 348px; 
+}
+
+.p5-dropdown-select {
+  width: 100%;
+  height: 60px; 
+  padding: 10px;
+  font-family: 'Noto Sans KR', sans-serif; 
+  font-size: 19px;
+  font-weight: Medium;
+  color: #666666;
+  background: #F3F4F8;
+  border: 1.4px solid #B1B8C0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.10);
+  appearance: none;
+  outline: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+}
+
+
+.p5-dropdown-select option {
+  width: 100%; 
+  height: 60px; 
+  font-family: 'Noto Sans KR', sans-serif; 
+  font-size: 20px;
+  color: #333333;
+  background: #F3F4F8;
+  border-bottom: 1px solid #B1B8C0;
+}
+
+.p5-dropdown-select option:last-child {
+  border-bottom: none;
+}
+
+.p5-confirm-button-container {
+    width: 332px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+    position: absolute; 
+    bottom: 20px; 
+}
+
+.p5-confirm-button {
+  width: 100%;
+  height: 59px;
+  background: #b1b8c0;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
